@@ -5,7 +5,7 @@
 }
 
 .head{
-    background-image: url("./Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 100vh;
@@ -16,7 +16,7 @@
 
 @media (max-width:1520px){
     .head{
-      background-image: url("Images/headimg.png");
+      background-image: url("/Images/headimg.png");
       background-repeat: no-repeat;
       background-size: 100% ;
       height: 80vh;
@@ -26,7 +26,7 @@
 
  @media (max-width:1377px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 75vh;
@@ -36,7 +36,7 @@
 
  @media (max-width:1200px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 70vh;
@@ -46,7 +46,7 @@
 
  @media (max-width:1110px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 65vh;
@@ -57,7 +57,7 @@
   @media (max-width:1035px){
 
     .head-image{
-      background-image: url("Images/headimg.png");
+      background-image: url("/Images/headimg.png");
       background-repeat: no-repeat;
       background-size: 100% ;
       height: 60vh;
@@ -68,7 +68,7 @@
 
 @media (max-width:1000px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 55vh;
@@ -78,7 +78,7 @@
 
 @media (max-width:862px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 50vh;
@@ -88,7 +88,7 @@
 
 @media (max-width:656px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 45vh;
@@ -98,7 +98,7 @@
 
 @media (max-width:610px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 40vh;
@@ -108,7 +108,7 @@
 
 @media (max-width:585px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 35vh;
@@ -118,7 +118,7 @@
 
 @media (max-width:538px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 30vh;
@@ -148,7 +148,7 @@
 
 @media (max-width:426px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 25vh;
@@ -158,7 +158,7 @@
 
 @media (max-width:330px){
   .head{
-    background-image: url("Images/headimg.png");
+    background-image: url("/Images/headimg.png");
     background-repeat: no-repeat;
     background-size: 100% ;
     height: 22vh;
