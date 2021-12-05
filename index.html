@@ -160,49 +160,45 @@
 
 
         <h1 data-aos="fade-left" style="font-weight: 400;text-align: center;font-size: xxx-large;">Estimated Reach</h1>
-        <form action="{{url_for('predict') }}" method="POST" style="width:50vw;justify-content: center;font-size:large;
+        <form action="{{url_for('predict') }}" method="POST" style="width:55vw;justify-content: center;font-size:large;
         font-weight: 600;margin: auto;padding:20px;border-radius: 4px;background-color: rgba(241, 219, 190, 0.993); border: 1px solid rgba(255,255,255,0.3);
              box-shadow: 2px 2px 15px;">
             <!-- <input type="radio" name="views" value="Male" size="17">Views-->
-            <input type="number" name="views" data-aos="fade-left"> &nbsp;&nbsp;&nbsp;&nbsp;Views <br><br>
+            <input type="number" name="views" data-aos="fade-left"> &nbsp;Views&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <input type="number" name="dislikes" data-aos="fade-left"> &nbsp;&nbsp;&nbsp;&nbsp; Dislikes <br><br>
+            <input type="number" name="dislikes" data-aos="fade-left"> &nbsp;Dislikes&nbsp;&nbsp;&nbsp;&nbsp;
 
-            <input type="number" name="comment_count" data-aos="fade-left"> &nbsp;&nbsp;&nbsp;&nbsp;Comment count
+            <input type="number" name="comment_count" data-aos="fade-left"> &nbsp;Comment count
             <br><br>
 
+            <h3 style="text-align: center;">Choose applicable options:</h3>
+            <input type="radio" name="comments_disabled	" value=0 data-aos="fade-up"> Comments Disabled<br>
+            <input type="radio" name="views" value=1 data-aos="fade-up"> Ratings Disable<br>
+            <input type="radio" name="views" value=2 data-aos="fade-up"> Video error removed<br>
+            <input type="radio" name="2" value=3 data-aos="fade-up"> Autos & Vehicles<br>
+            <input type="radio" name="10" value=4 data-aos="fade-up">
+            Music<br>
 
-            <input type="radio" name="comments_disabled	" value=0 data-aos="fade-up"> Comments Disabled
-            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="views" value=1 data-aos="fade-up"> Ratings Disable
-            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="views" value=2 data-aos="fade-up"> Video error removed<br>
-            <input type="radio" name="2" value=3 data-aos="fade-up"> Autos & Vehicles
-            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="10" value=4 data-aos="fade-up">
-            Music
-            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="15" value=5 data-aos="fade-up"> Pets & Animals<br>
-            <input type="radio" name="17" value=6 data-aos="fade-up"> Sports
+            <input type="radio" name="15" value=5 data-aos="fade-up"> Pets & Animals<br>
+            <input type="radio" name="17" value=6 data-aos="fade-up"> Sports<br>
 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
-                type="radio" name="19" value=7 data-aos="fade-up"> Travel & Events
-            &nbsp;&nbsp; <input type="radio" name="20" value=8 data-aos="fade-up"> Gaming<br>
+            <input type="radio" name="19" value=7 data-aos="fade-up"> Travel & Events<br>
+            <input type="radio" name="20" value=8 data-aos="fade-up"> Gaming<br>
 
-            <input type="radio" name="22" value=9 data-aos="fade-up"> People & Blogs
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="23" value=10
-                data-aos="fade-up">
-            Comedy
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
-                type="radio" name="24" value=11 data-aos="fade-up"> Entertainment<br>
-            <input type="radio" name="25" value=12 data-aos="fade-up"> News & Politics
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="26" value=13
-                data-aos="fade-up">
-            How to & Style
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="27" value=14 data-aos="fade-up"> Education<br>
-            <input type="radio" name="28" value=15 data-aos="fade-up"> Science & Technology
-            &nbsp;<input type="radio" name="29" value=16 data-aos="fade-up"> Nonprofits & Activism
-            <input type="radio" name="43" value=17 data-aos="fade-up"> Shows
+            <input type="radio" name="22" value=9 data-aos="fade-up"> People & Blogs<br>
+            <input type="radio" name="23" value=10 data-aos="fade-up">
+            Comedy<br>
+            <input type="radio" name="24" value=11 data-aos="fade-up"> Entertainment<br>
+            <input type="radio" name="25" value=12 data-aos="fade-up"> News & Politics<br>
+            <input type="radio" name="26" value=13 data-aos="fade-up">
+            How to & Style<br>
+            <input type="radio" name="27" value=14 data-aos="fade-up"> Education<br>
+            <input type="radio" name="28" value=15 data-aos="fade-up"> Science & Technology<br>
+            <input type="radio" name="29" value=16 data-aos="fade-up"> Nonprofits & Activism<br>
+            <input type="radio" name="43" value=17 data-aos="fade-up"> Shows<br>
             <br><br>
             <!--<button class="button"><span>Submit</span></button>-->
-            <button class="btn" data-aos="fade-right"><span>Submit</span></button><br><br>
+            <button class="btn" data-aos="fade-right">Submit</button><br><br>
             {{prediction_text}}
 
 
